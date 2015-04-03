@@ -1,0 +1,25 @@
+{
+ "name": "sails-hook-swagger-node",
+ "version": "0.0.1",
+ "description": "Swagger-Node hook for Sails.js server",
+  "keywords": [
+    "swagger",
+    "api",
+    "apis",
+    "sails"
+  ],
+  "author": "Scott Ganyo <sganyo@apigee.com>",
+  "license": "MIT",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/swagger-node/sails-hook-swagger-node.git"
+  },
+  "dependencies": {
+    "debug": "^2.1.3",
+    "swagger-node-runner": ""
+  },
+  "sails": {
+   "isHook": true
+  }
+}
