@@ -1,7 +1,7 @@
 {
- "name": "sails-hook-swagger-node",
- "version": "0.0.1",
- "description": "Swagger-Node hook for Sails.js server",
+  "name": "sails-hook-swagger-node",
+  "version": "0.1.0",
+  "description": "Swagger-Node hook for Sails.js server",
   "keywords": [
     "swagger",
     "api",
@@ -20,6 +20,6 @@
     "swagger-node-runner": "^0.2.0"
   },
   "sails": {
-   "isHook": true
+    "isHook": true
   }
 }
